@@ -23,7 +23,7 @@ export const generateMedicalReport = async (
   audioBlob: Blob
 ): Promise<ReportResult> => {
   try {
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: "AIzaSyA4tAXg0sbIcy2eBJnx2KlH8LxQzxaUqN8" });
     
     // Convert inputs to base64
     const templatePart = await fileToGenerativePart(templateFile);
