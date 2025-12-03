@@ -1,0 +1,7 @@
+{
+  "name": "متین طب",
+  "description": "سیستم هوشمند تولید گزارش پزشکی با استفاده از هوش مصنوعی",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
